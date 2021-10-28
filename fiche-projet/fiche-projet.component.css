@@ -82,13 +82,7 @@ hr {
   width: 40%;
   margin-left: 0px;
 }
-td {
-  /* text-align: right; */
-  vertical-align: middle;
-}
-th {
-  vertical-align: middle;
-}
+
 
 .cc {
   font-family: "Open Sans";
@@ -145,6 +139,14 @@ th {
   font-size: 12px;
 }
 
+.gis-form {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-height: 50px;
+  padding: 30px 24px 30px 24px;
+  border-radius: 15px;
+  font-size: 12px;
+}
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
   .titre {
@@ -154,12 +156,12 @@ th {
   }
 }
 
-table,
+.bp-table > table,
 th,
 td {
   border-collapse: collapse;
 }
-th,
+.bp-table > th,
 td {
   border: 1px solid black;
   border-top: none;
@@ -293,6 +295,48 @@ p span {
   justify-content: space-between;
   height: 100%;
   font-size: 1rem;
+}
+
+.add-btn {
+  background-color: #00ae81;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 6px;
+  margin-top: 15px;
+  border: none;
+}
+ 
+.btn-icon i{
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.btn-icon,
+.btn-txt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.add-btn:hover {
+  background-color: #018a65;
+}
+
+.cncl-btn{
+  background-color: #ffffff;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #018a65;
+  border-radius: 6px;
+  margin-top: 15px;
+  border: 1px solid #018a65;
 }
 
 .left {

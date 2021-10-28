@@ -91,12 +91,13 @@
           >
         </p>
       </div>
-      <form class="needs-validation" #f="ngForm">
+
+      <form class="needs-validation gis-form mb-3" #f="ngForm">
         <div class="row">
           <div class="col-md-12">
             <h5 style="color: #00ae81">Caractéristique des intrants</h5>
-            <div class="row">
-              <div class="col-md-2">
+            <div class="row gy-3 mb-3 d-flex justify-content-center">
+              <div class="col">
                 <label for="formGroupExampleInput">Intrant catégorie 1</label>
                 <select
                   id="formGroupExampleInput"
@@ -112,7 +113,7 @@
                   </option>
                 </select>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <label for="formGroupExampleInput">Intrant catégorie 2</label>
                 <select
                   id="formGroupExampleInput"
@@ -129,7 +130,7 @@
                   </option>
                 </select>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Intrant catégorie 3</label>
                   <select
@@ -149,7 +150,7 @@
                   </select>
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Description biblio</label>
                   <select
@@ -171,7 +172,7 @@
                 </div>
               </div>
 
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Unité de mesure</label>
                   <input
@@ -189,8 +190,8 @@
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-2">
+            <div class="row gy-3 mb-3 d-flex justify-content-center">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">MB/u</label>
                   <input
@@ -207,7 +208,7 @@
                 </div>
               </div>
 
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">MS/u</label>
                   <input
@@ -222,7 +223,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">%MS </label>
                   <input
@@ -237,7 +238,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">% MO/MS</label>
                   <input
@@ -253,7 +254,7 @@
                 </div>
               </div>
 
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Nm3 CH4/t MO</label>
                   <input
@@ -270,8 +271,8 @@
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-2">
+            <div class="row gy-3 mb-3 d-flex justify-content-center">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput"> Description Client</label>
                   <input
@@ -287,7 +288,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Quantité</label>
                   <input
@@ -299,7 +300,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput"> Tot MB</label>
                   <input
@@ -313,7 +314,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Tot MS</label>
                   <input
@@ -327,7 +328,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Nm3 Ch4/an</label>
                   <input
@@ -342,8 +343,8 @@
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-2">
+            <div class="row gy-3 mb-3 d-flex justify-content-center">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Prix</label>
 
@@ -358,7 +359,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Base</label>
                   <select
@@ -376,7 +377,7 @@
                 </div>
               </div>
 
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Prix [€/t MB]</label>
                   <input
@@ -390,7 +391,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Prix [€/t MS]</label>
                   <input
@@ -404,7 +405,7 @@
                   />
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col">
                 <div class="form-group">
                   <label for="formGroupExampleInput">Total</label>
                   <input
@@ -420,164 +421,132 @@
               </div>
             </div>
 
-            <i
-              class="entypo-plus-circled"
-              type="submit"
-              (click)="saveContent(f.value)"
-              style="
-                font-size: 30px;
-                border-radius: 60px;
-                background-color: #2d7574;
-                color: white;
-                float: left;
-              "
-            ></i>
-
-            <div style="margin-top: 50px">
-              <div class="row">
-                <div class="col-md-10">
-                  <table class="table table-striped">
-                    <thead>
-                      <tr>
-                        <th>Description Client</th>
-                        <th>Quantité</th>
-                        <th>Tot MB</th>
-                        <th>Tot MS</th>
-                        <th>Nm3/h</th>
-                        <th>KWe/h</th>
-                        <th scope="col">Action</th>
-                      </tr>
-                      <tr>
-                        <th style="background-color: #2d7574"></th>
-                        <th style="background-color: #2d7574"></th>
-                        <th style="background-color: #2d7574"></th>
-                        <th style="background-color: #2d7574"></th>
-                        <th style="background-color: #2d7574"></th>
-                        <th style="background-color: #2d7574"></th>
-                        <th style="background-color: #2d7574"></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr *ngFor="let newFiche of newFiche">
-                        <th>
-                          {{ newFiche?.description }}
-                        </th>
-
-                        <th>
-                          {{ newFiche?.quantite }}
-                        </th>
-
-                        <th>
-                          {{ newFiche?.t_MB_an }}
-                        </th>
-
-                        <th>
-                          {{ newFiche?.t_MS_an }}
-                        </th>
-
-                        <th>
-                          {{ newFiche?.Nm3_CH4_an }}
-                        </th>
-
-                        <th>
-                          {{ newFiche?.KWe_h }}
-                        </th>
-                        <th>
-                          <i
-                            class="entypo-pencil"
-                            style="
-                              font-size: 15px;
-                              margin-left: 15px;
-                              color: #2d7574;
-                            "
-                            (click)="indexRow(newFiche)"
-                          ></i>
-                          <i
-                            class="entypo-trash"
-                            style="
-                              font-size: 15px;
-                              margin-left: 15px;
-                              color: red;
-                            "
-                            (click)="delete(newFiche)"
-                            title="Delete"
-                          ></i>
-                          <i
-                            class="entypo-check"
-                            style="
-                              font-size: 15px;
-                              margin-left: 15px;
-                              color: green;
-                            "
-                          ></i>
-                        </th>
-                      </tr>
-                      <tr>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-
-                        <!-- <td>{{sum_of_Animal_TMB}}</td>
-                <td>{{sum_of_Animal_TMS}}</td>
-                <td>{{sum_of_Animal_NM3}}</td> -->
-                      </tr>
-                    </tbody>
-
-                    <br />
-                  </table>
-
-                  <!-- <div style="margin-top: 20px; float: right">
-            <button class="btn btn-success mr-5" (click)="addFiche(newFiche)">Save</button>
-            <button class="btn btn-warning">Cancel</button>
-          </div> -->
-                </div>
-              </div>
-            </div>
-
-            <div style="margin-top: 50px">
-              <div class="row">
-                <div class="col-md-10">
-                  <table class="table table-striped">
-                    <thead>
-                      <tr>
-                        <th>Total MS</th>
-                        <th>Total MB</th>
-                        <th>Total Nm3CH4/h</th>
-                        <th>Total KWe/h</th>
-                      </tr>
-                      <tr>
-                        <th style="background-color: #2d7574"></th>
-                        <th style="background-color: #2d7574"></th>
-                        <th style="background-color: #2d7574"></th>
-                        <th style="background-color: #2d7574"></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>{{ somme_MS }}</td>
-                        <td>{{ somme_MB }}</td>
-                        <td>{{ volume_Nm3_CH4_an }}</td>
-                        <td>{{ somme_KWH }}</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <div style="margin-top: 20px; float: right">
-                    <button class="btn btn-success mr-5" (click)="addFiche()">
-                      Save
-                    </button>
-                    <button class="btn btn-warning">Cancel</button>
-                  </div>
-                </div>
-              </div>
+            <div>
+              <button
+                class="add-btn"
+                type="submit"
+                (click)="saveContent(f.value)"
+              >
+                <span class="btn-txt">Sauvegarder</span>
+                <span class="btn-icon"><i class="fi fi-rr-download"></i></span>
+              </button>
             </div>
           </div>
         </div>
       </form>
+      <div class="gis-form">
+        <div style="margin-top: 50px">
+          <div class="row">
+            <div class="col table-responsive">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Description Client</th>
+                    <th>Quantité</th>
+                    <th>Tot MB</th>
+                    <th>Tot MS</th>
+                    <th>Nm3/h</th>
+                    <th>KWe/h</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let newFiche of newFiche">
+                    <th>
+                      {{ newFiche?.description }}
+                    </th>
+                    <th>
+                      {{ newFiche?.quantite }}
+                    </th>
+                    <th>
+                      {{ newFiche?.t_MB_an }}
+                    </th>
+                    <th>
+                      {{ newFiche?.t_MS_an }}
+                    </th>
+                    <th>
+                      {{ newFiche?.Nm3_CH4_an }}
+                    </th>
+                    <th>
+                      {{ newFiche?.KWe_h }}
+                    </th>
+                    <th>
+                      <i
+                        class="entypo-pencil"
+                        style="
+                          font-size: 15px;
+                          margin-left: 15px;
+                          color: #2d7574;
+                        "
+                        (click)="indexRow(newFiche)"
+                      ></i>
+                      <i
+                        class="entypo-trash"
+                        style="font-size: 15px; margin-left: 15px; color: red"
+                        (click)="delete(newFiche)"
+                        title="Delete"
+                      ></i>
+                      <i
+                        class="entypo-check"
+                        style="font-size: 15px; margin-left: 15px; color: green"
+                      ></i>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <!-- <td>{{sum_of_Animal_TMB}}</td>
+                  <td>{{sum_of_Animal_TMS}}</td>
+                  <td>{{sum_of_Animal_NM3}}</td> -->
+                  </tr>
+                </tbody>
+                <br />
+              </table>
+              <!-- <div style="margin-top: 20px; float: right">
+                    <button class="btn btn-success mr-5" (click)="addFiche(newFiche)">Save</button>
+                     <button class="btn btn-warning">Cancel</button>
+                      </div> -->
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 50px">
+          <div class="row">
+            <div class="col table-responsive">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Total MS</th>
+                    <th>Total MB</th>
+                    <th>Total Nm3CH4/h</th>
+                    <th>Total KWe/h</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>{{ somme_MS }}</td>
+                    <td>{{ somme_MB }}</td>
+                    <td>{{ volume_Nm3_CH4_an }}</td>
+                    <td>{{ somme_KWH }}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div style="margin-top: 20px">
+                <button class="cncl-btn" style="margin-right: 15px" type="submit">
+                  <span class="btn-txt">Annuler</span>
+                </button>
+                <button class="add-btn" type="submit" (click)="addFiche()">
+                  <span class="btn-txt">Enregistrer</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div style="margin-top: 20px; float: right">
         <button
@@ -12315,7 +12284,7 @@
 
         <div class="d-flex flex-wrap">
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h5>BP SPV (version 1) - Injection - 200 Nm3 CH4/h</h5>
               <table class="table">
                 <thead>
@@ -12525,7 +12494,7 @@
           </div>
 
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <table class="table">
                 <thead>
                   <tr class="hLine bLine table-success">
@@ -12638,7 +12607,7 @@
           </div>
 
           <div class="bp-table container col-lg-5 col-sm-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h5>Les caracterisitique de l'investissement</h5>
               <table class="table">
                 <tbody>
@@ -12667,7 +12636,7 @@
             </div>
           </div>
           <div class="bp-table container col-lg-5 col-sm-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h5>Les caracterisitique de la main d'oeuvre</h5>
               <table class="table">
                 <tbody>
@@ -12693,7 +12662,7 @@
           </div>
 
           <div class="bp-table container col-lg-5 col-sm-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h5>Repartition des couts d'investissement</h5>
               <table class="table">
                 <tbody>
@@ -12718,7 +12687,7 @@
             </div>
           </div>
           <div class="bp-table container col-lg-5 col-sm-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <table class="table">
                 <thead>
                   <tr class="hLine">
@@ -12736,7 +12705,7 @@
             </div>
           </div>
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h3>Les Ratio</h3>
               <table class="table">
                 <tbody>
@@ -12773,7 +12742,7 @@
             </div>
           </div>
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h3>Caracterisitiques d'imposition CFE/FER</h3>
               <table class="table">
                 <tbody>
@@ -12811,7 +12780,7 @@
             </div>
           </div>
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h3>Financement du capital</h3>
               <table class="table">
                 <thead>
@@ -12848,839 +12817,841 @@
           <div class="bp-table container col-12 mt-3 mb-3">
             <div class="row">
               <h2>Business Plan</h2>
-              <table class="table">
-                <thead class="table-success">
-                  <tr class="hLine bLine">
-                    <th scope="col"></th>
-                    <th scope="col">2021</th>
-                    <th scope="col">2022</th>
-                    <th scope="col">2023</th>
-                    <th scope="col">2024</th>
-                    <th scope="col">2025</th>
-                    <th scope="col">2026</th>
-                    <th scope="col">2027</th>
-                    <th scope="col">2028</th>
-                    <th scope="col">2029</th>
-                    <th scope="col">2030</th>
-                    <th scope="col">2031</th>
-                    <th scope="col">2032</th>
-                    <th scope="col">2033</th>
-                    <th scope="col">2034</th>
-                    <th scope="col">2035</th>
-                    <th scope="col">2036</th>
-                    <th scope="col">Total</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Monté en charge %</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      Production annuelle biomethane (MWh PCS/an)
-                    </th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Inflation tarif GRDF (%)</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Indice d'inflation tarif GRDF cumulé</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Tarif biométhane (€/MWh)</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th
-                      class="hLine bLine table-success"
-                      scope="row"
-                      colspan="18"
-                    >
-                      Production vendue
-                    </th>
-                  </tr>
-                  <tr>
-                    <th scope="row">vente de biométhane</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Redevance traitement des dechets</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Vente de digestat solide</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Vente de digestat liquide</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr class="hLine bLine">
-                    <th scope="row">Production de l'exercice</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
+              <div class="table-responsive">
+                <table class="table table-responsive">
+                  <thead class="table-success">
+                    <tr class="hLine bLine">
+                      <th scope="col"></th>
+                      <th scope="col">2021</th>
+                      <th scope="col">2022</th>
+                      <th scope="col">2023</th>
+                      <th scope="col">2024</th>
+                      <th scope="col">2025</th>
+                      <th scope="col">2026</th>
+                      <th scope="col">2027</th>
+                      <th scope="col">2028</th>
+                      <th scope="col">2029</th>
+                      <th scope="col">2030</th>
+                      <th scope="col">2031</th>
+                      <th scope="col">2032</th>
+                      <th scope="col">2033</th>
+                      <th scope="col">2034</th>
+                      <th scope="col">2035</th>
+                      <th scope="col">2036</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Monté en charge %</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        Production annuelle biomethane (MWh PCS/an)
+                      </th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Inflation tarif GRDF (%)</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Indice d'inflation tarif GRDF cumulé</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Tarif biométhane (€/MWh)</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th
+                        class="hLine bLine table-success"
+                        scope="row"
+                        colspan="18"
+                      >
+                        Production vendue
+                      </th>
+                    </tr>
+                    <tr>
+                      <th scope="row">vente de biométhane</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Redevance traitement des dechets</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Vente de digestat solide</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Vente de digestat liquide</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr class="hLine bLine">
+                      <th scope="row">Production de l'exercice</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
 
-                  <tr>
-                    <th class="table-success bLine" scope="row" colspan="18">
-                      Marge brute de production
-                    </th>
-                  </tr>
+                    <tr>
+                      <th class="table-success bLine" scope="row" colspan="18">
+                        Marge brute de production
+                      </th>
+                    </tr>
 
-                  <tr>
-                    <th scope="row">Achat de matières</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr class="hLine bLine">
-                    <th scope="row">Marge brute globale</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
+                    <tr>
+                      <th scope="row">Achat de matières</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr class="hLine bLine">
+                      <th scope="row">Marge brute globale</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
 
-                  <tr>
-                    <th
-                      class="hLine bLine table-success"
-                      scope="row"
-                      colspan="18"
-                    >
-                      Autres achats et charges Ext.
-                    </th>
-                  </tr>
+                    <tr>
+                      <th
+                        class="hLine bLine table-success"
+                        scope="row"
+                        colspan="18"
+                      >
+                        Autres achats et charges Ext.
+                      </th>
+                    </tr>
 
-                  <tr>
-                    <th scope="row">Charge d'exploiatation</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Charges consommables</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Charges entretien</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Charges logistiques</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Charges ensilage</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr class="hLine bLine">
-                    <th scope="row">Valeur ajoutée</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
+                    <tr>
+                      <th scope="row">Charge d'exploiatation</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Charges consommables</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Charges entretien</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Charges logistiques</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Charges ensilage</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr class="hLine bLine">
+                      <th scope="row">Valeur ajoutée</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
 
-                  <tr>
-                    <th
-                      class="table-success hLine bLine"
-                      scope="row"
-                      colspan="18"
-                    >
-                      Impots et taxes
-                    </th>
-                  </tr>
+                    <tr>
+                      <th
+                        class="table-success hLine bLine"
+                        scope="row"
+                        colspan="18"
+                      >
+                        Impots et taxes
+                      </th>
+                    </tr>
 
-                  <tr>
-                    <th scope="row">Taxes foncières S/ Batie (TFPB)</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Cotisation foncière ETP (CFE)</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Remuniration</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Salaires</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Charges sociales</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">URSSAF/MSA</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Total</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr class="hLine bLine">
-                    <th scope="row">Exedant brute d'exploitation</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
+                    <tr>
+                      <th scope="row">Taxes foncières S/ Batie (TFPB)</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Cotisation foncière ETP (CFE)</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Remuniration</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Salaires</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Charges sociales</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">URSSAF/MSA</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Total</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr class="hLine bLine">
+                      <th scope="row">Exedant brute d'exploitation</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
 
-                  <tr>
-                    <th
-                      class="hLine bLine table-success"
-                      scope="row"
-                      colspan="18"
-                    >
-                      Dotation aux amort
-                    </th>
-                  </tr>
+                    <tr>
+                      <th
+                        class="hLine bLine table-success"
+                        scope="row"
+                        colspan="18"
+                      >
+                        Dotation aux amort
+                      </th>
+                    </tr>
 
-                  <tr>
-                    <th scope="row">DAP</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Resultat d'exploitation</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Charges financiàres</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Interets emprunt</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Interets obligations</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr>
-                    <th
-                      class="table-success hLine bLine"
-                      scope="row"
-                      colspan="18"
-                    >
-                      Location vente construction
-                    </th>
-                  </tr>
-                  <tr class="hLine bLine">
-                    <th scope="row">Resultat courant</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
+                    <tr>
+                      <th scope="row">DAP</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Resultat d'exploitation</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Charges financiàres</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Interets emprunt</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Interets obligations</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <th
+                        class="table-success hLine bLine"
+                        scope="row"
+                        colspan="18"
+                      >
+                        Location vente construction
+                      </th>
+                    </tr>
+                    <tr class="hLine bLine">
+                      <th scope="row">Resultat courant</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
 
-                  <tr>
-                    <th
-                      class="table-success hLine bLine"
-                      scope="row"
-                      colspan="18"
-                    >
-                      Produits exceptionnels
-                    </th>
-                  </tr>
+                    <tr>
+                      <th
+                        class="table-success hLine bLine"
+                        scope="row"
+                        colspan="18"
+                      >
+                        Produits exceptionnels
+                      </th>
+                    </tr>
 
-                  <tr>
-                    <th scope="row">Quote part subvention</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr class="hLine bLine">
-                    <th scope="row">Résultat exceptionnel</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
+                    <tr>
+                      <th scope="row">Quote part subvention</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr class="hLine bLine">
+                      <th scope="row">Résultat exceptionnel</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
 
-                  <tr>
-                    <th
-                      class="table-success hLine bLine"
-                      scope="row"
-                      colspan="18"
-                    >
-                      Impots sur les bénéfices
-                    </th>
-                  </tr>
+                    <tr>
+                      <th
+                        class="table-success hLine bLine"
+                        scope="row"
+                        colspan="18"
+                      >
+                        Impots sur les bénéfices
+                      </th>
+                    </tr>
 
-                  <tr>
-                    <th scope="row">IS (28% et 25% à partir de 2022)</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                  <tr class="hLine bLine">
-                    <th scope="row">Résultat NET</th>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                    <td>0.00%</td>
-                  </tr>
-                </tbody>
-              </table>
+                    <tr>
+                      <th scope="row">IS (28% et 25% à partir de 2022)</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr class="hLine bLine">
+                      <th scope="row">Résultat NET</th>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                      <td>0.00%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
 
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h2>Autofinancement</h2>
               <table class="table">
                 <thead>
@@ -13891,7 +13862,7 @@
             </div>
           </div>
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h5>
                 Comparatif des 3 solutions ENRagri solutions VS Marché actuel
               </h5>
@@ -13922,7 +13893,7 @@
             </div>
           </div>
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <table class="table">
                 <thead>
                   <tr class="hLine bLine table-success">
@@ -13992,7 +13963,7 @@
             </div>
           </div>
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <h5>Tableau d'amortissement</h5>
               <table class="table">
                 <thead>
@@ -14337,7 +14308,7 @@
             </div>
           </div>
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <table class="table">
                 <thead>
                   <tr class="hLine bLine table-success">
@@ -14431,7 +14402,7 @@
             </div>
           </div>
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <table class="table">
                 <thead>
                   <tr class="hLine bLine table-success">
@@ -14465,7 +14436,7 @@
             </div>
           </div>
           <div class="bp-table container col-12 mt-3 mb-3">
-            <div class="row">
+            <div class="row table-responsive">
               <table class="table">
                 <thead>
                   <tr class="hLine bLine table-success">
