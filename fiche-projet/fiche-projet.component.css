@@ -1,12 +1,16 @@
+.conteneur{
+  text-align: center;
+}
 ul.horizontal {
   float: left;
   margin: 0 0 3em 0;
-  padding: 0;
+  padding-left: 150px;
+  text-align: center;
 }
 ul.horizontal p {
   float: left;
   cursor: pointer;
-  margin-right: 8px;
+  margin-right: 30px;
 }
 ul.horizontal p a {
   opacity: 0.3;
@@ -47,6 +51,16 @@ h1 {
   /* font-family: "Open Sans"; */
 }
 
+.dropdown-menu{
+  min-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.dropdown-menu li{
+  width: 100%;
+  text-align: center;
+}
+
 .sticky {
   display: flex;
   flex-direction: row;
@@ -61,7 +75,8 @@ h1 {
 /*CSS CAPEX */
 .btn {
   width: 100%;
-  background-color: white;
+  background-color: #00ae81;
+  border: none;
 }
 
 .vert-line {

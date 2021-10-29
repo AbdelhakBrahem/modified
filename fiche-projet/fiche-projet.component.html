@@ -1,25 +1,45 @@
 <div class="container">
-  <div class="row">
-    <ul class="horizontal">
-      <p
-        class="col-md-1 text-center"
-        *ngFor="let state of states"
-        (click)="setStateAsActive(state.img)"
+  <div class="row g-0">
+    <div class="dropdown d-lg-none d-xl-none mt-3">
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
       >
-        <a
-          data-toggle="tab"
-          role="tab"
-          style="text-decoration-line: none"
-          [class.active]="state.img === activeState"
-          href="{{ state.tabs }}"
-        >
-          <img src="{{ state.img }}" alt="" width="70px" />
-          <span style="color: #6b6b6b; text-align: center">{{
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li *ngFor="let state of states">
+          <a class="dropdown-item" href="#" style="width: 100%">{{
             state.name
-          }}</span>
-        </a>
-      </p>
-    </ul>
+          }}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="conteneur d-flex justify-content-center align-items-center">
+      <ul class="horizontal d-none d-lg-block d-xl-block">
+        <p
+          class="col-md-1 text-center"
+          *ngFor="let state of states"
+          (click)="setStateAsActive(state.img)"
+        >
+          <a
+            data-toggle="tab"
+            role="tab"
+            style="text-decoration-line: none"
+            [class.active]="state.img === activeState"
+            href="{{ state.tabs }}"
+          >
+            <img src="{{ state.img }}" alt="" width="70px" />
+            <span style="color: #6b6b6b; text-align: center">{{
+              state.name
+            }}</span>
+          </a>
+        </p>
+      </ul>
+    </div>
   </div>
   <div class="row">
     <div class="infoBar container mt-3">
@@ -536,7 +556,11 @@
                 </tbody>
               </table>
               <div style="margin-top: 20px">
-                <button class="cncl-btn" style="margin-right: 15px" type="submit">
+                <button
+                  class="cncl-btn"
+                  style="margin-right: 15px"
+                  type="submit"
+                >
                   <span class="btn-txt">Annuler</span>
                 </button>
                 <button class="add-btn" type="submit" (click)="addFiche()">
